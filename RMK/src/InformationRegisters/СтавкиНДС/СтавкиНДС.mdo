@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="505a6b12-1d95-4626-b464-98aae0fba6be" extendedConfigurationObject="a60ccc2c-682b-43c1-8cec-91ce65983b6b">
+  <producedTypes>
+    <selectionType typeId="7f7e7b98-3e15-4ed0-ae6d-6064eb97f53f" valueTypeId="8decb1c1-47fd-4786-8e4c-e8758cc7840f"/>
+    <listType typeId="34e09a43-9b7b-4b70-86c5-b21064a69c85" valueTypeId="df0113a3-7581-426e-a10a-7b5ce5c4e766"/>
+    <managerType typeId="81e3c1cf-3be2-4e2a-81a1-26b6ddb1fe59" valueTypeId="12a99bd4-bbf9-4a9e-ac5f-7b41d34d7ba5"/>
+    <recordSetType typeId="c1e2773c-d794-4a6a-bbe2-dbc3c4ad60a9" valueTypeId="199c3b00-cfb0-4ed1-8e40-df7063f2f871"/>
+    <recordKeyType typeId="325b8e89-c5fa-4bf9-84f3-4b5155b1b6f1" valueTypeId="64d70c79-d82c-4dff-bf99-acb762b8400c"/>
+    <recordType typeId="260c481d-93cb-40dc-b73b-23b579d773cd" valueTypeId="22da024b-004a-4678-9ab1-ab87800fe28d"/>
+    <recordManagerType typeId="399e3768-243f-4aa1-ad64-6c0ba70ba625" valueTypeId="dff418fd-b353-4ede-b8b7-f1579940e0c4"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+</mdclass:InformationRegister>

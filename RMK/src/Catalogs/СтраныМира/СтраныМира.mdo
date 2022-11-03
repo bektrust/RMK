@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d3ec81b9-cad8-4312-8e9f-d7f9449254ef" extendedConfigurationObject="794f5fb5-3b8f-4f45-9250-7a3b9d1db383">
+  <producedTypes>
+    <objectType typeId="4987daeb-071e-40a9-8e97-a89ae1235313" valueTypeId="2740f730-32ae-4905-b80c-52ab9ad0d579"/>
+    <refType typeId="81ff2159-ef9e-4a86-a3a3-fbcabbeb657f" valueTypeId="e2c7b8e1-1737-48a1-9cd3-b2caa6a25380"/>
+    <selectionType typeId="094c1d03-9916-43c6-8346-b33a029a1e49" valueTypeId="f3350810-5185-4726-aaa0-37e2e0492138"/>
+    <listType typeId="b5c26d9f-5cde-450a-9b07-e25a738fcd33" valueTypeId="7c03a539-4018-4142-b0b6-2f6083e40e98"/>
+    <managerType typeId="493d0bc3-8b4b-4daf-a072-ca7b7ccae63b" valueTypeId="47c8b1c3-b908-4449-9199-7cfdd5bac06c"/>
+  </producedTypes>
+  <name>СтраныМира</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

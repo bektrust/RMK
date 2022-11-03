@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6f3037c4-335d-4168-9268-76bc37463e1d">
+  <name>rmk</name>
+  <synonym>
+    <key>ru</key>
+    <value>Rmk</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <homePageWorkArea>Extended</homePageWorkArea>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3574bf4f-9326-4714-b3fa-cc3ef98429fb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="59d0643c-ef55-44ee-bf41-915206d0f198"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2b21d62e-ee61-4db2-b77c-02f5df1b5f63"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="585a50cd-c75c-4d01-863f-e283db7863bc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1507a64e-317a-43fb-9506-7f09380d9820"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e040947f-9ccc-476a-953e-6d19e2875997"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3c685d63-e746-4fcb-97f6-41242d458643"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Рмк_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Рмк_Кассир</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="ed509cdb-7e1f-44fc-90a5-a0bf6abe13f7" extendedConfigurationObject="cd663109-2cf5-498b-82aa-81e7a6c8d921">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Рмк_кассир</subsystems>
+  <styleItems>StyleItem.ЦветТекстаАвтораДокумента</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <commonPictures>CommonPicture.МаркируемаяПродукцияТЧ</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.МаркируемаяПродукцияШапка</commonPictures>
+  <commonPictures>CommonPicture.Рмк_оплата</commonPictures>
+  <commonPictures>CommonPicture.Рмк_ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.НовыйПоШтрихкоду</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияЕстьВозврат</commonPictures>
+  <commonPictures>CommonPicture.Весы16БРО</commonPictures>
+  <commonPictures>CommonPicture.ЗакрытаяКассоваяСмена</commonPictures>
+  <roles>Role.Рмк_Кассир</roles>
+  <roles>Role.БазовыеПраваБСП</roles>
+  <commonModules>CommonModule.Ценообразование</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентПереопределяемыйБП</commonModules>
+  <commonModules>CommonModule.ИнформацияПриЗапускеПереопределяемыйБП</commonModules>
+  <constants>Constant.ДатаПервогоВходаВСистему</constants>
+  <constants>Constant.ДатаТекущейВерсии</constants>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ПодключаемоеОборудование</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.ВидыОплатОрганизаций</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.СтатьиЗатрат</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.СтавкиНСП</catalogs>
+  <catalogs>Catalog.ВидыОтветственныхЛиц</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.ТипыЦенНоменклатуры</catalogs>
+  <catalogs>Catalog.КлассификаторГКЭД</catalogs>
+  <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
+  <catalogs>Catalog.СпецификацииНоменклатуры</catalogs>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <documents>Document.ОтчетОРозничныхПродажах</documents>
+  <documents>Document.РозничнаяПродажа</documents>
+  <documentJournals>DocumentJournal.РозничныеПродажи</documentJournals>
+  <enums>Enum.ВидыОперацийРозничнаяПродажа</enums>
+  <enums>Enum.ТипыОплат</enums>
+  <enums>Enum.ВидыДеятельностиЕН</enums>
+  <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
+  <enums>Enum.ВидыСкидокНаценок</enums>
+  <dataProcessors>DataProcessor.Рмк_Кассир</dataProcessors>
+  <informationRegisters>InformationRegister.ОтветственныеЛицаОрганизаций</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыРозничныхПродаж</informationRegisters>
+  <informationRegisters>InformationRegister.СчетаУчетаНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.СтавкиНДС</informationRegisters>
+  <informationRegisters>InformationRegister.СтавкиНСП</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Хозрасчетный</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Хозрасчетный</accountingRegisters>
+</mdclass:Configuration>

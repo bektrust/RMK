@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bd4960e0-81a5-4d67-82f2-5396efe0a9fa" extendedConfigurationObject="be8a788a-efa0-43e3-a7e7-6f89def61f7e">
+  <producedTypes>
+    <objectType typeId="6167ea2b-d9d8-4395-8cc1-35388137859e" valueTypeId="9f4a864f-a88d-42d9-bfdd-46e267c4e603"/>
+    <refType typeId="f27dad13-1bf2-4d6d-a430-ffdd846a7d1f" valueTypeId="a4c8d560-d6d5-407a-afe8-253a8ee65a66"/>
+    <selectionType typeId="1eff3c44-1062-4c61-9be4-fead98f4412e" valueTypeId="577e6606-ba1c-493b-beb1-906ab7ac48f7"/>
+    <listType typeId="b55eef18-8ecf-437e-9b4a-11bfd022c7ce" valueTypeId="7a29d5e7-799d-4897-80ec-90a180e037f3"/>
+    <managerType typeId="f3a05d61-57da-4b26-b687-76e45d7e325a" valueTypeId="beb0634f-37e1-4403-b8b3-86069f74889e"/>
+    <containerType typeId="c3cec202-bd68-4ade-9da9-706b7bda36a2" valueTypeId="fa539b0f-7516-4ffb-9bf2-45949a1355cf"/>
+  </producedTypes>
+  <name>ВидыСубконтоХозрасчетные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:ChartOfCharacteristicTypes>

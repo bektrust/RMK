@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="292d6288-7e09-4372-b345-536c604462c2" extendedConfigurationObject="64cf1678-efa7-4643-9710-eadfbbff8fc5">
+  <producedTypes>
+    <managerType typeId="921b699a-61d2-43f4-abdb-e06a004ccab0" valueTypeId="bcd5caba-ca1e-4e68-970c-0bcece716424"/>
+    <valueManagerType typeId="8292b8f5-1335-4961-847c-2c1dcc7bc31b" valueTypeId="e7c69d65-af64-4f74-9748-42f7f1ee95bc"/>
+    <valueKeyType typeId="20b2ea26-7f23-4046-ae6d-e2a35831850a" valueTypeId="36544977-c0dc-40cd-b17e-290ee49ffc1f"/>
+  </producedTypes>
+  <name>ДатаТекущейВерсии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Date</type>
+      </types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3ed8a0e3-7d59-44ef-9bbc-df9dab5c9b62" extendedConfigurationObject="5fd49737-a490-4938-8140-566653fc196f">
+  <producedTypes>
+    <selectionType typeId="3d3a012a-493f-4d4e-b7da-5aaa0f3a38a0" valueTypeId="f57ab3c5-6492-4a1a-87bf-76d7e238feb3"/>
+    <listType typeId="6b25ddad-57d8-4b36-a225-bfee10314f56" valueTypeId="79a796bb-1438-481f-addd-84ef209126d1"/>
+    <managerType typeId="0762949b-4000-4754-86aa-08488acaeef4" valueTypeId="e64b91dc-52ba-47ad-92ec-cf736a75f25f"/>
+  </producedTypes>
+  <name>РозничныеПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registeredDocuments>Checked</registeredDocuments>
+  </extension>
+  <registeredDocuments>Document.ОтчетОРозничныхПродажах</registeredDocuments>
+  <registeredDocuments>Document.РозничнаяПродажа</registeredDocuments>
+  <columns uuid="669551b4-e242-4028-96cd-37953379efb3" extendedConfigurationObject="eadd5233-7ebb-43e1-945e-bae3a748f9d8">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:ColumnExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <columns uuid="a10ff3dc-2b43-410c-a0ee-c657fa8bd54a" extendedConfigurationObject="f3f575e6-abae-434d-9911-f6fce1d74d02">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:ColumnExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </columns>
+  <forms uuid="c771b1a2-1095-420b-8701-4ab399e586bf" extendedConfigurationObject="7dbe1699-fb69-4cca-bb24-193539497251">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DocumentJournal>

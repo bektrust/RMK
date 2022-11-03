@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1ed69d16-3796-4345-be2d-4146232d7995" extendedConfigurationObject="e32f460d-195e-403d-9789-a22b60b1e1a4">
+  <producedTypes>
+    <selectionType typeId="076fcbb9-0679-4562-975d-01e5a07a2c9b" valueTypeId="66fa94e2-36bd-47b0-81dc-575cb164f788"/>
+    <listType typeId="697ea003-6f3d-400d-ac6d-6240c645ae8f" valueTypeId="f0ee5fbe-c886-4041-adb1-7d32362d48ab"/>
+    <managerType typeId="5b4ee8c5-2768-43e8-927e-5136cef30fd0" valueTypeId="1cad21d7-67c0-4958-a470-c86f639d3856"/>
+    <recordSetType typeId="24042199-b394-404a-a752-2978897ecbbe" valueTypeId="516105f5-97c5-4586-b5b0-50a185853e37"/>
+    <recordKeyType typeId="335be040-ad6d-4688-aa66-31d2bb3413b2" valueTypeId="d2711f28-ab82-4780-99ed-472136b33e34"/>
+    <recordType typeId="d2e5baf5-0290-4254-bd0f-408786c00223" valueTypeId="ba76b73d-d6af-44b4-b451-a490f840e01c"/>
+    <recordManagerType typeId="927e29fa-798f-45bc-b353-b339425cfa5c" valueTypeId="49b472f1-ee01-4ae9-b1b5-733b09a73925"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="cc18bdbc-b415-406c-ade3-3c6f204d7c0e" extendedConfigurationObject="e84675f1-bfdf-41c6-bc41-40587c8d36c5">
+    <name>ФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="f46b95b0-c2f1-4c07-bb39-8875552088a7" extendedConfigurationObject="6db7506b-e970-4034-9068-a4a1a54154bb">
+    <name>Должность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Должности</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="ecca2c1f-b8a5-41a1-ae84-71cd5a1671d5" extendedConfigurationObject="28bdf45d-110a-4c0b-8b97-af11b3e841ab">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="dc942e98-a5f4-44e8-a040-2bf6c18b4da7" extendedConfigurationObject="c76c28a7-f15c-4693-9d33-ca64e142a341">
+    <name>ОтветственноеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыОтветственныхЛиц</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="1efeb7a8-849d-4a7f-aead-3b70f555b88f" extendedConfigurationObject="2e23f228-2303-4747-8622-ffc2a4e18265">
+    <name>Касса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Кассы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

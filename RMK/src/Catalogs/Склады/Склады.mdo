@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03ca4b4b-714e-4cd6-9189-c68c5601c9a0" extendedConfigurationObject="604a35a3-7604-4416-9d96-0715a524d311">
+  <producedTypes>
+    <objectType typeId="4fa90aca-1432-47d9-b99a-d66230b651a0" valueTypeId="9d634e69-1ce0-433d-a727-e2815465bfd2"/>
+    <refType typeId="b80144ac-3382-4bd9-8443-93bdd49ddb71" valueTypeId="0476095b-b78a-4767-bade-3b39a0f07b51"/>
+    <selectionType typeId="0cd97b07-f41b-4351-8ebe-cc2f6714b722" valueTypeId="69ef16ce-1be8-4663-bcd5-2c24b3c0cfc1"/>
+    <listType typeId="c93837b3-c2e1-4fd9-8854-6681ea17e6d0" valueTypeId="cd5493b5-185e-4af0-8f5e-7d9594554b69"/>
+    <managerType typeId="b295038f-4a90-4b77-88d9-01be73cee6e9" valueTypeId="3580173b-4b06-401d-bbb2-c83977b05ab1"/>
+  </producedTypes>
+  <name>Склады</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="4b4cd9fc-73a1-4912-b3bd-9a102fd58b08" extendedConfigurationObject="bf7e2e82-1a64-4f2d-8fec-e2fbbc5f984e">
+    <name>ТипЦенРозничнойТорговли</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ТипыЦенНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

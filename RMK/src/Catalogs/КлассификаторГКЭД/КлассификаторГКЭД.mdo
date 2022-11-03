@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b6ee5ca7-8ff5-4690-a643-762afd409463" extendedConfigurationObject="7fb4bb21-f4b6-4a52-a68e-e35f776f7df4">
+  <producedTypes>
+    <objectType typeId="3d08326b-b1f6-45b0-86db-2ed4558b2d04" valueTypeId="c326a090-1ff7-44a3-a6cf-29d0262d53c1"/>
+    <refType typeId="a113a403-32ee-4581-9aed-cf1e65a376bd" valueTypeId="ba4b2d20-f624-4075-93f9-c6016059e0e8"/>
+    <selectionType typeId="d5f12497-f3e5-4be7-91e9-1f68d580b8c7" valueTypeId="78256b1b-dcf3-4e5d-99fe-db6e212eafe7"/>
+    <listType typeId="ffcc8666-222d-4f07-bce1-17d5446ef3a0" valueTypeId="6c585fa0-fd6c-4a8c-bee9-48e9beb067ef"/>
+    <managerType typeId="a073d417-3aaf-43ca-b942-6a6a8e1f767e" valueTypeId="3131b9fb-1be0-4df6-b6ca-e15802ef8dee"/>
+  </producedTypes>
+  <name>КлассификаторГКЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+</mdclass:Catalog>

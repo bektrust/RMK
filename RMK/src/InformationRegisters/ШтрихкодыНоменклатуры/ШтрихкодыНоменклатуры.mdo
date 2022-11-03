@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a12ff8bc-cd0a-4454-b210-976e2640a31b" extendedConfigurationObject="cb5510f7-8450-4c2a-8f3a-054fa612620b">
+  <producedTypes>
+    <selectionType typeId="0930bb54-cd5d-4b66-82c0-a63615858a50" valueTypeId="27661def-67eb-466a-9ca2-5c08b130cf94"/>
+    <listType typeId="97516180-dcbb-49e3-bdd8-178a11eef251" valueTypeId="e5e37bfa-54f9-4b7e-a5a9-96cdc46dbc83"/>
+    <managerType typeId="7195be4c-b4cf-4cf6-8be5-35436dd3560c" valueTypeId="edca46fe-280a-4137-8880-3aedd5e613ae"/>
+    <recordSetType typeId="8b86cd86-2f6e-41ce-a2a8-cfd962c2b82a" valueTypeId="53916742-bdd6-4651-8b98-ea05de84e811"/>
+    <recordKeyType typeId="ef95057d-69ac-4bcd-b5d9-878ddd50abbd" valueTypeId="1b15da03-bf2c-4549-8c1a-d837bba88109"/>
+    <recordType typeId="e1fc3c5e-b5f3-43e7-9d98-64258242d4a1" valueTypeId="91ab0e95-e5f2-4811-b993-0474f8a36aef"/>
+    <recordManagerType typeId="e7d5f449-2dd1-4d30-9108-5d23bcbb2f06" valueTypeId="fa7572dd-be27-4fbf-bdc4-53100d180261"/>
+  </producedTypes>
+  <name>ШтрихкодыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d59f9931-6eea-478a-b1c1-8f4672b858fe" extendedConfigurationObject="c75271e2-9bac-4c02-b7c7-6264b3139df7">
+  <producedTypes>
+    <selectionType typeId="7ab72a96-8832-4955-aa2c-aba1b00f12ca" valueTypeId="cbad3a13-9fb7-4a96-8e93-150142b6366f"/>
+    <listType typeId="a6585ec3-9458-475a-b5c9-e94d2f8397cf" valueTypeId="c2561d91-51a4-4920-bd16-8b9391a867e7"/>
+    <managerType typeId="57266d2b-bc48-443a-962c-37c2199afacb" valueTypeId="8d827f49-7a2c-443e-b869-4fa6d7e64b60"/>
+    <recordSetType typeId="a5d5e84a-5eec-4588-8d3f-defb0dbe0b69" valueTypeId="223b89f0-e82c-4373-ad63-60071abc086d"/>
+    <recordKeyType typeId="dba5da62-0082-48b7-b515-e6f89b58aa46" valueTypeId="fe0f0537-27aa-47b6-86c2-e1a5d99110b1"/>
+    <recordType typeId="b76531c5-de63-4247-9e5f-e4455fd5cca8" valueTypeId="ea90c669-dcf7-4c53-a78d-ac7d07ca3bbb"/>
+    <recordManagerType typeId="04879e68-5cf3-4027-8c85-00698557e968" valueTypeId="454d1457-2156-4a62-ba8e-a80d4c419d43"/>
+  </producedTypes>
+  <name>СчетаУчетаНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>
